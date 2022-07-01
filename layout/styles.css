@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.layout {
+  border: 2px solid red;
+  height: 99vh;
+  display: flex;
+  padding: 15px;
+  margin: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  border: 2px dotted tomato;
+  width: 5vw;
+  height: 5vw;
+  margin: 5px;
+}
+
+.area {
+  border: 2px dotted blue;
+  margin: 5px;
+}
+
+.layout1 {
+  width: 10vw;
+}
+
+.layout2 {
+  width: 25vw;
+}
+
+.layout3 {
+  width: 60vw;
+}
+
+.area-in-layout2 {
+  width: 20vw;
+  height: 100vh;
+}
+
+.area1 .area2 {
+  flex-grow: 1;
+}
+
+.area3 {
+  flex-basis: 40vh;
+}
+
+.area-in-layout3 {
+  width: 55vw;
+  height: 100vh;
+}
+
+.area4 {
+  flex-grow: 1;
+}
+
+.area5 {
+  flex-basis: 20vh;
+}
